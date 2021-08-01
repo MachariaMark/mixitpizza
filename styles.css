@@ -178,3 +178,29 @@ body {
   outline-offset: 0.8rem;
 }
 /* MENU */
+
+#menu {
+  background: linear-gradient(rgba(255,255,255,0.455),rgba(255,255,255,0.455)),
+  url(../img/Roasted-Vegetable-Pizza.jpg)center/cover fixed no-repeat;
+}
+
+.special {
+  border: 7px ridge red;
+  position: relative;
+}
+
+.special-text {
+  position: absolute;
+  top: 0;
+  right: 0%;
+  background: black; 
+  color: bisque;
+}
+
+.index-form {
+  width: 100%;
+  background: url(../img/set.jpeg)center/cover fixed no-repeat;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  scroll-padding-bottom: 60px;
+}
