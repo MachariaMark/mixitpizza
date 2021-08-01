@@ -4,3 +4,26 @@ body {
   color: bisque;
   background: url(../img/neon-pizza-sign.png)center/cover fixed no-repeat;
 }
+/*BISQUE COLOR*/
+.info {
+  background: bisque;
+}
+
+/*BLACK COLOR #000*/
+.primary-color {
+  color: #000;
+}
+
+/*ICONS STYLES*/
+.info h2 {
+  word-spacing: 0.6rem;
+}
+
+.info a {
+  transition: color 1.125s ease-in-out;
+}
+
+.info a:hover {
+  color: red;
+}
+/*END OF ICONS STYLES*/
