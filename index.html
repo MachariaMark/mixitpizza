@@ -345,6 +345,58 @@
                 <option id="Ham" value="100 KES Ham" label="100 KES Ham"></option>
               </select>
             </div>
+            <label for="delivery" class="lables"><b>Delivery:</b></label>
+            <select required class="form-control" id="delivery">
+              <option id="delivery1" value="200 KES delivery">Delivery - KES 200</option>
+              <option id="pickup" value="pickup">pickup</option>
+            </select>
+            <form class="form-group checkout">
+              <div class="">
+                <label for="name" class="lables"><b>Name:</b></label>
+                <input type="text" class="form-control" id="name" placeholder="Name..." name="name" required>
+                <label for="phone" class="lables"><b>contacts:</b></label>
+                <input type="text" class="form-control" id="number" placeholder="+254XXXXXXXX" name="number" required>
+                <label for="delivery" class="lables"><b>Instructions:</b></label>
+                <textarea type="text" id="address" class="form-control" placeholder="instructions" required></textarea>
+              </div>
+              <label for="amount" class="lables"><b>Quantity:</b></label>
+              <input id="amount" class="product-quantity form-control" name="product_quantity" value="0">
+            </form>
+            <!-- <button class="btn btn-primary btn-md btn-block mt-4 mb-2">CHECKOUT</button> -->
+            <!-- Modal -->
+            <!-- BUTTON TRIGGER MODAL -->
+            <a href="#receipt">
+              <button<a href="#receipt" type="button" class="btn btn-primary btn-block mt-4 mb-4" data-toggle="modal"
+                data-target="#exampleModalCenter" id="checkout7" onclick="getValue();">
+                Summary
+                </button>
+            </a>
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-Centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Order Summary</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save</button>
+                  </div>
+                </div>
+              </div>
+              <!-- END OF MODAL -->
+          </form>
+        </div>
+      </div>
+    </div>
+  </article>
+  <!--END OF FORM SECTION-->
 </body>
 
 </html>
