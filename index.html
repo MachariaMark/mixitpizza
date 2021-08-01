@@ -8,10 +8,10 @@
   <title>MIX IT PIZZA</title>
   <!-- BOOTSTRAP CSS-->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-   <!-- CUSTOM CSS-->
-   <link href="css/styles.css" rel="stylesheet">
-   <!-- JQUERY-->
-   <script src="js/jquery-3.4.1.js"></script>
+  <!-- CUSTOM CSS-->
+  <link href="css/styles.css" rel="stylesheet">
+  <!-- JQUERY-->
+  <script src="js/jquery-3.4.1.js"></script>
   <!-- BOOTSTRAP JS-->
   <script src="js/bootstrap.bundle.min.js"></script>
   <!-- FONT AWESOME JS-->
@@ -359,7 +359,7 @@
               <option id="pickup" value="pickup">pickup</option>
             </select>
             <form class="form-group checkout">
-              <div class="">
+              <div>
                 <label for="name" class="lables"><b>Name:</b></label>
                 <input type="text" class="form-control" id="name" placeholder="Name..." name="name" required>
                 <label for="phone" class="lables"><b>contacts:</b></label>
@@ -369,37 +369,24 @@
               </div>
               <label for="amount" class="lables"><b>Quantity:</b></label>
               <input id="amount" class="product-quantity form-control" name="product_quantity" value="0">
-            </form>
-            <!-- <button class="btn btn-primary btn-md btn-block mt-4 mb-2">CHECKOUT</button> -->
-            <!-- MODAL -->
-            <!-- BUTTON TRIGGER MODAL -->
-            <a href="#receipt">
-              <button<a href="#receipt" type="button" class="btn btn-primary btn-block mt-4 mb-4" data-toggle="modal"
-                data-target="#exampleModalCenter" id="checkout7" onclick="getValue();">
-                Summary
+              <a href="#receipt">
+                <button <a href="#receipt" type="button" class="btn btn-primary btn-block mt-4 mb-4" id="checkout7"
+                  onclick="getValue();">
+                  Summary
                 </button>
-            </a>
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-              aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-Centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Order Summary</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save</button>
-                  </div>
-                </div>
-              </div>
-              <!-- END OF MODAL -->
+              </a>
           </form>
+        </div>
+      </div>
+      <div class="container-fluid receipt">
+        <h1 class="menu">Receipt</h1>
+        <div class="text-wrapper4">
+          <div class="col-md">
+            <div class="receipt" id="receipt">
+              <p id="receiptvalue"></p>
+              <p id="receiptvalue1"></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -408,18 +395,22 @@
   <!--SOCIAL ICONS-->
   <footer class="container-fluid info p-3" id="bottom-icons">
     <div class="row">
-        <div class="col d-flex justify-content-between aling-items-basline felx-wrap">
-            <div class="info-icons p-2">
-                <a href="https://www.facebook.com"  target="_blank" class="mr-2 primary-color"><i class="fab fa-facebook fa-2x"></i></a>
-                <a href="https://www.instagram.com" target="_blank" class="mr-2 primary-color"><i class="fab fa-instagram fa-2x"></i></a>
-                <a href="https://www.twitter.com" target="_blank" class="mr-2 primary-color"><i class="fab fa-twitter fa-2x"></i></a>
-                <a href="https://www.youtube.com/channel/UCDE9D_2439Kro6tbYOB05HQ" target="_blank" class="mr-2 primary-color"><i class="fab fa-youtube fa-2x"></i></a>
-            </div>
-            <h2 class="primary-color p-2 text-capitalize">606606 ngong rd, kilimani, nairobi</h2>
+      <div class="col d-flex justify-content-between aling-items-basline felx-wrap">
+        <div class="info-icons p-2">
+          <a href="https://www.facebook.com" target="_blank" class="mr-2 primary-color"><i
+              class="fab fa-facebook fa-2x"></i></a>
+          <a href="https://www.instagram.com" target="_blank" class="mr-2 primary-color"><i
+              class="fab fa-instagram fa-2x"></i></a>
+          <a href="https://www.twitter.com" target="_blank" class="mr-2 primary-color"><i
+              class="fab fa-twitter fa-2x"></i></a>
+          <a href="https://www.youtube.com/channel/UCDE9D_2439Kro6tbYOB05HQ" target="_blank"
+            class="mr-2 primary-color"><i class="fab fa-youtube fa-2x"></i></a>
         </div>
+        <h2 class="primary-color p-2 text-capitalize">606606 ngong rd, kilimani, nairobi</h2>
+      </div>
     </div>
-</footer>
-<!--END OF SOCIAL ICONS-->
+  </footer>
+  <!--END OF SOCIAL ICONS-->
 </body>
 
 </html>

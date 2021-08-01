@@ -4,7 +4,7 @@
 ## Description
 My own a pizza place as a way of trying to widen my overall customer base, I decided to create a web application where my customers order different sizes of pizzas with one or more toppings.
 ## Link to live site on GitHub Pages
-
+https://machariamark.github.io/mixitpizza/
 ## Setup
 * Clone this repo to your desktop
 * run this in your terminal "git remove set-url" if you wish to have it into your repository
