@@ -38,3 +38,7 @@ function getValue() {
   var total = (((pizzaNum + sizeNum + crustNum + toppingNum) *getAmountNum) + deliveryNum);
   console.log(total);
   document.getElementById("receiptvalue1").innerHTML="Your total charge: " + total;
+  // getting name and adress values
+  var name =document.getElementById("name").value;
+  var number=document.getElementById("number").value;
+  var adress=document.getElementById("address").value;
