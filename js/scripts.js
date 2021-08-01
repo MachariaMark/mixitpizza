@@ -43,10 +43,10 @@ function getValue() {
   var number=document.getElementById("number").value;
   var adress=document.getElementById("address").value;
   // form validation
-  if((pizza == "") || (size == "") || (crust == "") || (topping == "") || (getAmount== 0 ) || (name == "")){
-    alert ("please fill all fields");
-    return false;
-  }else {
-    alert("your order is on the way " + name + "!");
+    if((pizza == "") || (size == "") || (crust == "") || (topping == "") || (getAmount== 0 ) || (name == "")){
+      alert ("please fill all fields");
+      return false;
+    }else {
+      alert("your order is on the way " + name + "!");
+    }
   }
-}
